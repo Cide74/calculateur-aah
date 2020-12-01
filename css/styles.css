@@ -4,6 +4,11 @@ body {
     background-color: #6c85bd ;
     font-family: sans-serif;
     color: white;
+    position: relative;
+    min-height: 100%;
+    display : table;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .header {
@@ -20,6 +25,7 @@ body {
     margin: 0;
     padding: 5rem;
     display: inline-block;
+    display: block;
     
 }
 
@@ -30,4 +36,15 @@ h1 strong  {
 p {
     text-align: center;
     font-size: 2rem;
+}
+
+footer {
+    position: bottom;
+    background-color:#0c4da1;
+    position: absolute;
+   
+    display : table-row;
+    height: 100px;
+    display: inline-block;
+    display: block;
 }
