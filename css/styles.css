@@ -1,14 +1,15 @@
 
 
 body {
-    background-color: #6c85bd ;
+   /* background-color: #6c85bd ;
     font-family: sans-serif;
     color: white;
-    position: relative;
+   position: relative;
     min-height: 100%;
     display : table;
     height:  100vh;
     box-sizing: border-box;
+    display: block;*/
     
 }
 
@@ -59,4 +60,30 @@ footer {
 
 main {
     margin: 2rem;
+}
+
+.main-content {
+    display: block;
+    background-color: #6c85bd ;
+    font-family: sans-serif;
+    color: white;
+   /* position: relative;*/
+    min-height: 100%;
+    display : table;
+    height:  100vh;
+    box-sizing: border-box;
+    display: block;
+    color: white;
+    
+    text-align: center;
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 5rem;
+    display: inline;
+    /*display: block;*/
+    
+    top: 0px;
+    width: 100%;
+    display: inline-block;
 }
