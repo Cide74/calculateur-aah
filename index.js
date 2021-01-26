@@ -5,13 +5,13 @@ const PORT = process.env.PORT || 5050;
 
 const express = require('express');
 const app = express();
-const router = require('./src/router/route');
+const router = require('./src/router/router.js');
 
 
 app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
-//app.use('/static', express.static(__dirname + '/public'));
+app.use('/static', express.static(__dirname + '/public'));
 app.use(express.static('public'));
 app.use(router);
 
