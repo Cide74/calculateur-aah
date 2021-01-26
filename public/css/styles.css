@@ -18,7 +18,7 @@ body {
 }
 
 .main-header__title {
-    
+    /*
     color: white;
     background-color:#0c4da1;
     text-align: center;
@@ -27,7 +27,7 @@ body {
     margin: 0;
     padding: 5rem;
     display: inline;
-    /*display: block;*/
+    /*display: block;*//*
     position: absolute;
     top: 0px;
     width: 100%;
@@ -50,7 +50,7 @@ footer {
     position: absolute;
     bottom: 0px;
     display: table-row;
-    /*height: 100px;*/
+    /*height: 100px;*//*
     padding: 2rem;
     display:inline;
     width: 100%;
@@ -67,7 +67,7 @@ main {
     background-color: #6c85bd ;
     font-family: sans-serif;
     color: white;
-   /* position: relative;*/
+   /* position: relative;*//*
     min-height: 100%;
     display : table;
     height:  100vh;
@@ -81,9 +81,9 @@ main {
     margin: 0;
     padding: 5rem;
     display: inline;
-    /*display: block;*/
+    /*display: block;*//*
     
     top: 0px;
     width: 100%;
-    display: inline-block;
+    display: inline-block;*/
 }
