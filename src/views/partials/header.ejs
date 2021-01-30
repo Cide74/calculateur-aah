@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reste.css" />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Calculateur AAH</title>
+</head>
+<body>
+    <header class="main-header">
+        <a href="/">
+        <h1 class="main-header__title">   
+            Calculateur <strong>AAH</strong>
+        </h1></a>
+            <nav class="menu">
+                <% if(locals.login) { %>
+                    Bonjour <%=locals.login.firstname%>
+                    <% } %>
+                <a class="menu" href="/">Accueil</a>
+                <a class="menu" href="/calculateurSimple">le calculateur simple</a>
+                <a class="menu" href="contact">Contact</a>
+              
+                <a class="menu" href="https://www.caf.fr/allocataires/droits-et-prestations/s-informer-sur-les-aides/solidarite-et-insertion/l-allocation-aux-adultes-handicapes-aah#:~:text=Une%20revalorisation%20exceptionnelle%20porte%20son,vers%C3%A9e%20sous%20condition%20de%20ressources.">Les données Officielles</a>
+                <a class="menu" href="http://www.kevinpolisano.com/laah-pour-les-nuls-comprendre-par-lexemple-2/">AAH pour les NUL</a>
+             
+                <% if(!locals.login) { %>
+                <a class="menu" href="/signup">S'inscrire</a>
+                <a class="menu" href="/login">Se connecter</a>
+                <% } else { %>
+                <a class="menu" href="/profile">Profil</a>
+                <a class="menu" href="/logout">Se déconnecter</a>
+                <% if(locals.login.role === 'admin') { %>
+                <a class="menu" href="/admin">Admin</a>
+                <% } %>
+                <% } %>
+
+
+                <div id="menu">
+                    <ul>
+                    <li><a href="#"><span>WordPress</span></a></li>
+                    <li><a href="#"><span>Weebly</span></a></li>
+                    <li><a href="#"><span>Wix</span></a></li>
+                    <li><a href="#"><span>Squarespace</span></a></li>
+                    <li><a href="#"><span>Yola</span></a></li>
+                    <li><a href="#"><span>Webs</span></a></li>
+                    <li><a href="#"><span>Drupal</span></a></li>
+                    <li><a href="#"><span>Joomla</span></a></li>
+                    </ul>
+                </div>
+
+
+
+
+
+
+
+            </nav>
+    </header>
