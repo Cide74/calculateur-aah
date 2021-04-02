@@ -1,0 +1,17 @@
+.Footer {
+
+    text-align: center;
+    background-color:#1864AF;
+
+    position: relative;
+    width: 100%;
+    
+    &-title {
+        text-align: center;
+        text-overflow: clip;
+        color:white;
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+
+}

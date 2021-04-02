@@ -1,0 +1,23 @@
+.menu {
+    color:#BBCCDE;
+    background-color:#1864AF;
+    &__list {
+        display:inline-flex;
+    }
+    &__item { 
+        max-width: auto;
+        margin:0.1rem;
+        padding: 0.5rem;
+        list-style:none;
+        font-size: 1.25em;
+        font-weight: bolder;
+        border-radius: 1rem ;
+        border:2px solid #BBCCDE;
+        min-width: 150px;
+    }
+    &__item:hover {
+            color :#1864AF;
+            border-radius: 3rem ;
+            background-color:#BBCCDE;
+        }
+}
