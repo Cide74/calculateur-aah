@@ -23,7 +23,7 @@ export default function Calculator() {
               value="Votre situation:"
               name='revenu-text'
             />*/}
-            <p className='form-situation-text'>Vivez vous ?</p>
+            <p className='form-situation-text'>Vous vivez ?
             <Button 
               className='form-situation-seule' 
               content='Seule'  
@@ -33,8 +33,7 @@ export default function Calculator() {
               className='form-situation-couple' 
               content='Couple' 
               name='Couple'
-              />
-              
+              /></p>
  
 
           </div>

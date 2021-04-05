@@ -5,15 +5,14 @@
         text-align: center;
 
         &-situation {
-            text-align: center;
-            border:1px solid gray;
+            border:2px solid black;
             color:red;
-            background-color: rgba($color: #b1b1b1, $alpha: 0.5);
-            margin: auto;
+            background-color: rgba($color: #b1b1b1, $alpha: 1.0);
+            margin: 0.25rem;
             padding: 1rem;
-            border-radius: 1rem ;
+            border-radius: 1rem 
             // width:400px;
-            width: 500px;
+            max-
         }
         &-situation-seule {
             font-size: 1.5rem;

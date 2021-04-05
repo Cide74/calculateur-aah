@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'semantic-ui-react'
+//import { Button } from 'semantic-ui-react'
 
 import './Calculator.scss';
 
@@ -23,7 +23,7 @@ export default function Calculator() {
               value="Votre situation:"
               name='revenu-text'
             />*/}
-            <p className='form-situation-text'>Vivez vous ?</p>
+            <p>Vous vivez ?</p>
             <Button 
               className='form-situation-seule' 
               content='Seule'  
@@ -34,7 +34,6 @@ export default function Calculator() {
               content='Couple' 
               name='Couple'
               />
-              
  
 
           </div>
