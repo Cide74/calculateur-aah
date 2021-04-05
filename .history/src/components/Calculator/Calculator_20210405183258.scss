@@ -1,0 +1,45 @@
+.calculateur {
+   // color:orange;
+    font-size: 1.5rem;
+    .form {
+        text-align: center;
+
+        &-situation-text {
+            color:red;
+            margin: 0.25rem;
+            padding: 1rem;
+            border-radius: 1rem 0rem 0rem 1rem;
+        }
+        &-situation-seule {
+            font-size: ;
+            color:white;
+            background-color: rebeccapurple;
+            border-radius: 1rem 0rem 0rem 1rem;
+            margin: 0rem;
+            padding: 1rem;
+            width: 150px;
+        }
+        &-situation-couple {
+            color:white;
+            background-color: rebeccapurple;
+            border-radius: 0rem 1rem 1rem 0rem;
+            margin: 0rem;
+            padding: 1rem;
+            width: 150px;
+        }
+    }
+
+
+    .field-input-revenu {
+        color:red;
+        
+        width: max-content;
+        padding: 1rem;
+    
+        &-text {
+            text-align: center;
+            width: 200px;
+            margin: 0.5rem;
+            padding: 1rem;
+        }}
+}

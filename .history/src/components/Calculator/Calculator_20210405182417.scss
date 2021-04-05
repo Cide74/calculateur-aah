@@ -1,0 +1,28 @@
+.calculateur {
+   // color:orange;
+    font-size: 1.5rem;
+    .form {
+
+        text-align: center;
+
+        -situation {
+        margin-right: 0.5rem;
+        padding: 1rem;
+
+        }
+    }
+
+
+    .field-input-revenu {
+        color:red;
+        
+        width: max-content;
+        padding: 1rem;
+    
+        &-text {
+            text-align: center;
+            width: 200px;
+            margin-right: 0.5rem;
+            padding: 1rem;
+        }}
+}
