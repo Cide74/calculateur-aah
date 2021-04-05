@@ -1,0 +1,17 @@
+.calculateur {
+    color:orange;
+    font-size: 2em;
+
+    .field-input-revenu {
+        color:red;
+        text-align: center;
+        width: max-content;
+        padding: 1rem;
+    
+        &-text {
+            text-align: center;
+            width: max-content;
+            
+            padding: 1rem;
+        }}
+}

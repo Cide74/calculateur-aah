@@ -6,9 +6,9 @@ import './Main.scss';
 export default function Main() {
   return (
     <div className="Main">
-      < Home />
-      < Calculator />
       
+      < Calculator />
+      < Home />
     </div>
   );
 }
